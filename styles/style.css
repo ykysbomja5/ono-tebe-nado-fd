@@ -47,6 +47,104 @@ margin-bottom: 100px;
 }
 
 .cover {
+    position: relative;
+    background-image: url(\images\cover.jpg")
+    background-size: cover;
+    text-transform: uppercase;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 757px;
+}
+
+/* Оверлей */
+      /* position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 1110px;
+    height: 757px;
+    z-index: -1; */
+  
+  
+  /* Контейнер для заголовков */
+  .cover_title {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 165px 50px 147px;
+    gap: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Заголовок */
+  .span {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 30px;
+  }
+
+  .aligned-text {
+    align-self: flex-start;
+    text-align: start;
+  }
+
+  .aligned-text_center {
+    padding-top: 22px;
+    align-self: center;
+    text-align: center;
+  }
+  
+  .aligned-text_right {
+    align-self: flex-end;
+    text-align: right;
+  }
+
+  
+  /* Блок описания */
+  .cover_description {
+    display: flex;
+    align-items:baseline;
+    justify-content:center;
+    padding: 14px 0px 19px 0px;
+    gap: 40px;
+    word-spacing: 18px;
+    
+
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+text-transform: uppercase;
+color: #FFFFFF;
+background-color: rgba(0, 0, 0, 0.6);
+
+
+  }
+  
+  /* Стиль кнопки */
+  .button {
+    width: 256px;
+    height: 51px;
+    border: 1px solid white;
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+  }
+
+/*.cover {
+    display: flex;
     min-height: 757px;
     background-image: url(/images/cover.jpg);
     background-repeat:no-repeat ;
@@ -84,3 +182,18 @@ padding: 165px 21px 207px 50px;
 .aligned-text_right {
     text-align: end;
 }
+
+.p-dis {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+text-transform: uppercase;
+color: #66ff00;
+}
+
+.disc {
+  display: flex;
+  justify-content: center;
+} */
