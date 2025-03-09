@@ -7,7 +7,7 @@
 }
 
 .ul-menu { /* менюшка */
-  font-family: 'Raleway';
+  font-family: 'Raleway' , sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -30,7 +30,7 @@
 
 .address {
   max-width: 240px;
-  font-family: 'Raleway';
+  font-family: 'Raleway' , sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -96,7 +96,6 @@
 
 .aligned-text_center { /* тебе */
   padding-top: 22px;
-  ;
   align-self: center;
   text-align: center;
 }
@@ -118,7 +117,7 @@
   padding: 0px 10px 50px 8px;
   gap: 50px;
   word-spacing: 18px;
-  font-family: 'Raleway';
+  font-family: 'Raleway' , sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -139,6 +138,7 @@
   line-height: 51px;
   text-align: center;
   margin-left: 16px;
+  text-transform: uppercase;
 }
 
 
@@ -160,9 +160,7 @@
   margin-left: 23px;
   margin-top: 3px;
   margin-bottom: 1px;
-
   width: 1052px;
-  height: 591px;
 }
 
 .card_lots a {
@@ -279,7 +277,6 @@
 .about_text {
   display: flex;
   flex-direction: column;
-  gap: -25px;
   justify-content: flex-start;
   align-self: flex-start;
   font-family: "Raleway", sans-serif;
@@ -294,7 +291,7 @@
 
 .footer {
   width: 1100px;
-  height: 180px;
+
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: flex-start;
@@ -335,7 +332,7 @@
   justify-content: flex-end;
   gap: 0px;
   list-style-type: none;
-  font-family: 'Raleway';
+  font-family: 'Raleway' , sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -348,8 +345,5 @@
   margin-right: 49px;
 }
 
-.footer_nav {
-  height: 180px;
-}
 
 /* УРА ВСЕ ГОТОВО */
