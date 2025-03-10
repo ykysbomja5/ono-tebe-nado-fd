@@ -291,7 +291,7 @@
 
 .footer {
   width: 1100px;
-
+  margin-bottom: 80px;
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: flex-start;
@@ -316,6 +316,7 @@
   padding-left: 0px;
   margin-left: 48px;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .footer_links {
@@ -341,7 +342,7 @@
   color: #000000;
   padding-left: 0px;
   margin-top: 5px;
-  margin-bottom: 198px;
+  
   margin-right: 49px;
 }
 
